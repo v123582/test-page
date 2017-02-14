@@ -1,26 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-body {
-    background-color: lightblue;
-}
+	<meta charset="utf-8">
+	<title>Johnny</title>
+	<style type="text/css">
+		#container
+		{
+			height: 730px;
+            width: 795px;
+            margin: 0 auto;
+		}
+		#banner
+		{
+			background-image: url(http://gc.ncue.edu.tw/guiden1.jpg);
+            height: 117px;
+            width: 791px;
+		}
+		#sidebar
+		{
+			height: 610px;
+			width: 240px;
+			font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
+			font-size: 20px;
+			float: left;
+			background-color: #abcdef;
+		}
+		#content
+		{
+			height: 610px;
+			width: 551px;
+			font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
+			background-color: pink;
+			float: right;
+		}		
+		.style1
+		{
+			color:blue;
+			font-size: 15px;
+		}
+		h3
+		{
+			color: green;
+		}
+	</style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-h1 {
-    color: white;
-    text-align: center;
-}
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
-</style>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-
-<h1>Hello World</h1>
-<p>This is a paragraph.</p>
-
+<div id = "container">
+	<div id = "banner">
+		<div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6"></div>
+	</div>
+	<div id = "sidebar"><br>
+	<ul>
+	<li>認識彰師</li><br>
+	-------------------<br><br>
+	<li>最新消息</li>
+	-------------------<br><br>
+	<li>校園資訊</li>
+	-------------------<br><br>
+	<li>校長專頁</li>
+	-------------------<br><br>
+	<li>行政單位</li>
+	-------------------<br><br>
+	<li>學術單位</li>
+	-------------------<br><br>
+	<li>研究推廣單位</li>
+	</ul>
+	</div>
+	<div id = "content">
+		<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-6">
+		<h3>最新消息</h3><hr>
+		<table>
+		<tr><td align="center">學生事務處</td><td>105/04/11</td><td class="style1"> 學務處就輔組辦理:國立海洋生物博物館105年暑期校外實習申請</td></tr>
+		<tr><td align="center">圖書與資訊處</td><td>105/04/11</td><td class="style1">【攻擊預警】近期勒索軟體 Locky 活動頻繁，請提高警覺! </td></tr>
+		<tr><td align="center">教務處</td><td>105/04/11</td><td class="style1"> 公告105學年度大學「個人申請」第二階段甄試接駁專車時間 </td></tr>
+		<tr><td align="center">學生事務處</td><td>105/04/11</td><td class="style1"> 學務處就輔組辦理:國家發展委員會檔案管理局105年暑期實習申請 </td></tr>
+		<tr><td align="center">人事室</td><td>105/04/11</td><td class="style1"> 本校國際暨兩岸事務處組長職缺外補正、備取名單公告 </td></tr>
+		<tr><td align="center">圖書與資訊處</td><td>105/04/11</td><td class="style1"> 105學年度申請化學系輔系或雙主修注意事項 </td></tr>
+		<tr><td align="center">資訊管理學系</td><td>105/04/11</td><td class="style1"> 105學年度申請資管系轉系(轉組)注意事項 </td></tr>
+		<tr><td align="center">語文中心</td><td>105/04/11</td><td class="style1">【D-2】語文中心「多益英文範例解析與解題技巧」講座</td></tr>
+		</table>
+		</div>
+	</div>
+</div>
 </body>
 </html>
