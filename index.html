@@ -1,26 +1,165 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+   
 <style>
-body {
-    background-color: lightblue;
-}
+     /*螢幕<480px*/    
+@media screen and (max-width: 480px) {
 
-h1 {
-    color: white;
+    .footer{
+    width: 100%;
+    height: 100px;
+    background-color: #743A3A;
+    /*位置置底*/
+    position: relative; 
+    margin-top: 0px;  
+    }
+    
+    .head{
+    width: 100%;
+    height: 20px;
+    background-color: #743A3A;
+        
+    }
+    
+    .footerfont{
+    color:  #CF9E9E;
+   /*文字位置置底*/
+    position:absolute;
+    bottom:0px;
+    right:0px;
+  
+     
+    }   
+}
+      
+    
+    
+    /*螢幕>480px*/    
+@media screen and (min-width: 480px) {
+
+    .footer{
+    width: 100%;
+    height: 100px;
+    background-color: #336666;
+    /*位置置底*/
+    position: relative; 
+    margin-top: 0px;  
+    }
+    
+    .head{
+    width: 100%;
+    height: 20px;
+    background-color: #336666;
+        
+    }
+    
+    .footerfont{
+    color:  #007979;
+   /*文字位置置底*/
+    position:absolute;
+    bottom:0px;
+    right:0px;
+  
+     
+    }   
+}
+    /*螢幕>1000px*/
+@media screen and (min-width: 1000px) {
+    
+   .footer{
+    width: 100%;
+    height: 100px;
+    background-color: #4F4F4F;
+    /*位置置底*/
+    position: relative; 
+    margin-top: 0px;  
+    }
+     .head{
+    width: 100%;
+    height: 20px;
+    background-color: #4F4F4F;
+     
+    }
+    
+    .footerfont{
+    color:  lightgray;
+   /*文字位置置底*/
+    position:absolute;
+    bottom:0px;
+    right:0px;
+  
+     
+    }   
+}
+    
+.headimg {
+    width: 100%;
+    height: auto;
     text-align: center;
-}
+  
+    }
+    
+.contentdiv{
+        padding: 20px;
+        padding-bottom: 120px;
+        font-family: "Microsoft JhengHei";
+    
+    
+    }   
+    
 
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
+    
+
+    
 </style>
+    
 </head>
+    
+    
 <body>
+    
+    
+ <div class="head">
+     
+     
+    </div>
+   <img class="img-thumbnail haedimg" alt="Cinque Terre" src="http://www.ncue.edu.tw/ezfiles/0/1000/randimg/ad_56_9650031_29825.jpg">
 
-<h1>Hello World</h1>
-<p>This is a paragraph.</p>
+ 
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">關於資管</a></li>
+        <li role="presentation"><a href="#">訊息公告</a></li>
+        <li role="presentation"><a href="#">招生資訊</a></li>
+        <li role="presentation"><a href="#">課程資訊</a></li>
+        <li role="presentation"><a href="#">系所成員</a></li>
+        <li role="presentation"><a href="#">檔案下載</a></li>
+    </ul>
+
+    
+   
+    
+    
+    <div class="contentdiv">
+    
+     國立彰化師範大學資訊管理學系所成立於民國89年8月，並分別於 94 與 95 學年度獲准成立資訊管理碩士學位班與數位內容科技與管理碩士班；97 年度則於學士班新增數位內容科技與管理組。在以資訊管理為主，數位內容為特色之目標下，本系除持續精進原有資訊管理領域之教研設備外，亦積極擴增數位內容領域的基礎設施與教學暨研究能量，務使本系/所畢業學生能兼具資管與數位內容之專長，俾為業界培養珍貴之跨領域人才。 </br><hr>
+
+    目前本系共有11位專任教師，每位教師均學有專精且教學認真；學生數則包括學士班、資訊管理碩士班、數位內容科技與管理碩士班與資訊管理碩士學位班等各200、22、22與60人。系所規模雖不大，但師生於研究與實務的表現卻相當不凡，不僅在SSCI期刊發表方面居全國129資管系所之第5名 (根據國科會99年度研究報告)，學生亦屢屢於全國性實務競賽中獲獎；整體而言，彰師資管是一充滿朝氣與活力之新興系所。</br><hr>
+    
+    課程規劃以資訊管理為主，數位內容為特色，系所並依教育目標制訂核心能力與進行課程規劃，同時訂定具體學習檢核與評量機制，以提昇學生學習品質，培養學生紮實之資訊與商管基礎能力、同時訓練學生具備展現自我能力之專業技能，俾能提升其就業競爭力。根據最近(100年)的系友就業調查，本系畢業生不僅無非自願性失業，傑出系友亦散佈於國內各大企業，系友回報之起薪屢創新高，不乏高達 50K ~ 60K 者，在 22K 的就業市場中表現突出。
+    </div>  
+    
+   <div class="footer">
+ 
+       <div class="footerfont">Copyright © 2013 國立彰化師範大學資訊管理學系. All Rights Reserved. Designed by wtp</div>
+       
+    </div>
+ 
 
 </body>
 </html>
