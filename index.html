@@ -1,26 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<title>bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
 <style>
-body {
-    background-color: lightblue;
+h2,h3{
+	font-family:sans-serif;
+	color:#00e6ac;
 }
-
-h1 {
-    color: white;
-    text-align: center;
+h5,p,span{
+	font-family:sans-serif;
+	color:black
 }
-
-p {
-    font-family: verdana;
-    font-size: 20px;
+i{
+	color:#00e6ac
+}
+img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.mar{
+	margin-top:45px;
+	margin-left: 20px
+}
+.mar1{
+	margin-top:30px;
+	margin-bottom:30px
 }
 </style>
-</head>
 <body>
-
-<h1>Hello World</h1>
-<p>This is a paragraph.</p>
-
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-8">
+					<div class="mar">
+						<img alt="Bootstrap Image Preview" width=250 height=250 src="https://static.pexels.com/photos/209008/pexels-photo-209008.jpeg"; class="img-circle" />
+						<h2><span>Profile</span></h2>
+						<ul>
+							<i class="glyphicon glyphicon-user"></i>
+							<h5>Chen Hsiao-Jung</h5></br>
+							<i class="glyphicon glyphicon-book"></i>	
+							<h5>National Taiwan Ocean University (CS)</h5></br>
+							<i class="glyphicon glyphicon-thumbs-up"></i>
+							<h5>FB: Hsiao Jung</h5></br>
+						</ul> 
+						<button type="button" class="btn btn-lg btn-info" style="background-color:#00e6ac">
+						Contact
+						</button>
+					</div>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mar1">
+						<img alt="Bootstrap Image Preview" width=2500 src="https://static.pexels.com/photos/187919/pexels-photo-187919.jpeg" class="img-thumbnail"/>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>LIFE</h2>
+					<blockquote>
+					<p>Life is fine and enjoyable, yet you must learn to enjoy your fine life.</p>
+					</blockquote>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail First" src="https://static.pexels.com/photos/165553/pexels-photo-165553.jpeg" />
+						<div class="caption">
+						<h3>Image1</h3>
+						<p>This is Description1.</p>
+						<p>
+						<a class="btn btn-primary" style="background-color:#00e6ac" href="#">Click</a> <a class="btn" href="#">Action</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img alt="Bootstrap Thumbnail Second" src="https://static.pexels.com/photos/24946/pexels-photo-24946.jpg">
+					<div class="caption">
+						<h3>Image2</h3>
+						<p>This is Description2.</p>
+						<p>
+							<a class="btn btn-primary" style="background-color:#00e6ac" href="#">Click</a> <a class="btn" href="#">Action</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img alt="Bootstrap Thumbnail Third" src="https://static.pexels.com/photos/190219/pexels-photo-190219.jpeg" />
+					<div class="caption">
+						<h3>Image3</h3>
+						<p>This is Description3.</p>
+						<p>
+							<a class="btn btn-primary" style="background-color:#00e6ac" href="#">Click</a> <a class="btn" href="#">Action</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
